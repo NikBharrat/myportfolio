@@ -1,0 +1,24 @@
+{
+  "name": "nikbharrat.github.io",
+  "version": "1.0.0",
+  "description": "Responsive portfolio site",
+  "main": "index.js",
+  "homepage": "https://nikbharrat.github.io/myportfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikBharrat/NikBharrat.github.io.git"
+  },
+  "author": "Nikil Bharrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NikBharrat/NikBharrat.github.io/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
